@@ -37933,7 +37933,12 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 
-
+@media (max-width: 575px) {
+  .u-header .u-text-1 {
+    width: auto;
+    margin-left: -13px;
+  }
+}
  .u-footer {
   background-image: none;
 }
